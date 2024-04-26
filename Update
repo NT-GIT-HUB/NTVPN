@@ -1,0 +1,59 @@
+{
+   "VERSAO":"1.0",
+   "CONFIG_MSG":[
+      {
+         "MSG":"NTVPN"
+      }
+   ],
+   "SSH_AUTH_DATA":[
+      {
+         "USER":"ssht",
+         "PASS":"ssht"
+      }
+   ],
+   "SERVIDOR":[
+      {
+         "NOME":"BRAZIL",
+         "FLAG":"br.png",
+         "TIPO":"FREE",
+         "SSH_SERVER_DOMAIN":"148.113.174.235:80",
+         "PROXY_IP_DOMAIN":"148.113.174.235:80"
+      },
+      {
+         "NOME":"CANADA",
+         "FLAG":"ca.png",
+         "TIPO":"PREMIUM",
+         "SSH_SERVER_DOMAIN":"148.113.174.238:443",
+         "PROXY_IP_DOMAIN":"148.113.174.238:443"
+      }
+   ],
+   "PAYLOAD":[
+      {
+         "NOME":"VIVO1",
+         "OPERADORA":"vivo",
+         "MODO_HTTP":"MODO_HTTP",
+         "MODE_DIRECT":"true",
+         "PAYLOAD_AFTER_TLS":"false",
+         "PAYLOAD_KEY":"GET / HTTP/1.1\nHost: free1.sshtproject.com\nUpgrade: Websocket\n\n",
+         "CUSTOM_SNI":"ssht@ssht"
+      },
+      {
+         "NOME":"CLARO",
+         "OPERADORA":"claro",
+         "MODO_HTTP":"MODO_HTTPS",
+         "MODE_DIRECT":"true",
+         "PAYLOAD_AFTER_TLS":"false",
+         "PAYLOAD_KEY":"GET / HTTP/1.1\nHost: free3.sshtproject.com\nUpgrade: Websocket\n\n",
+         "CUSTOM_SNI":"web.whatsapp.com"
+      },
+      {
+         "NOME":"CLARO",
+         "OPERADORA":"claro",
+         "MODO_HTTP":"MODO_HTTPS",
+         "MODE_DIRECT":"true",
+         "PAYLOAD_AFTER_TLS":"false",
+         "PAYLOAD_KEY":"GET / HTTP/1.1\nHost: free3.sshtproject.com\nUpgrade: Websocket\n\n",
+         "CUSTOM_SNI":"web.whatsapp.com"
+      }
+   ]
+}
