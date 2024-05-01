@@ -25,6 +25,12 @@
          "TIPO":"PREMIUM",
          "SSH_SERVER_DOMAIN":"148.113.174.238:443",
          "PROXY_IP_DOMAIN":"148.113.174.238:443"
+      },{
+         "NOME":"LOCAL",
+         "FLAG":"br.png",
+         "TIPO":"FREE",
+         "SSH_SERVER_DOMAIN":"189.31.252.252:22",
+         "PROXY_IP_DOMAIN":"189.31.252.252:80"
       }
    ],
    "PAYLOAD":[
@@ -47,9 +53,9 @@
          "CUSTOM_SNI":"web.whatsapp.com"
       },
       {
-         "NOME":"CLARO",
+         "NOME":"LOCAL",
          "OPERADORA":"claro",
-         "MODO_HTTP":"MODO_HTTPS",
+         "MODO_HTTP":"MODO_HTTP",
          "MODE_DIRECT":"true",
          "PAYLOAD_AFTER_TLS":"false",
          "PAYLOAD_KEY":"GET / HTTP/1.1\nHost: free3.sshtproject.com\nUpgrade: Websocket\n\n",
