@@ -2,7 +2,7 @@
    "VERSAO":"1.0",
    "CONFIG_MSG":[
       {
-         "MSG":"NTVPN01"
+         "MSG":"NTVPN1.1"
       }
    ],
    "SSH_AUTH_DATA":[
@@ -29,7 +29,7 @@
          "NOME":"LOCAL",
          "FLAG":"br.png",
          "TIPO":"FREE",
-         "SSH_SERVER_DOMAIN":"192.168.100.18:443",
+         "SSH_SERVER_DOMAIN":"192.168.100.18:22",
          "PROXY_IP_DOMAIN":"189.31.252.252:80"
       }
    ],
@@ -55,7 +55,7 @@
       {
          "NOME":"LOCAL",
          "OPERADORA":"claro",
-         "MODO_HTTP":"MODO_HTTPS",
+         "MODO_HTTP":"MODO_HTTP",
          "MODE_DIRECT":"true",
          "PAYLOAD_AFTER_TLS":"false",
          "PAYLOAD_KEY":"GET / HTTP/1.1\nHost: free3.sshtproject.com\nUpgrade: Websocket\n\n",
